@@ -1,0 +1,75 @@
+*,
+*:before,
+*:after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #b3dae3; /* Light pink background color */
+  height: 100vh;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.heading {
+  font-size: 2.5rem;
+  color: #000; /* Black text color */
+  margin-bottom: 20px;
+}
+
+.container {
+  background-color: #deb0d5; /* Pink container background color */
+  width: 60%;
+  max-width: 600px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.timer-display {
+  font-family: "Roboto Mono", monospace;
+  color: #000; /* Black text color */
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.buttons button {
+  width: 100px;
+  height: 40px;
+  background-color: #fff; /* White button background color */
+  color: #000; /* Black button text color */
+  border: 1px solid #000; /* Black border color */
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.buttons button:hover {
+  background-color: #e0e0e0; /* Light gray background on hover */
+}
+
+.lap-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.lap-list li {
+  color: #000; /* Black text color for lap times */
+  font-family: "Roboto Mono", monospace;
+  font-size: 24px;
+  margin-top: 10px;
+}
